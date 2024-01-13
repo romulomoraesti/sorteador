@@ -1,0 +1,67 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, ul, li {
+    font-family: sans-serif;
+    list-style: none;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    margin: 30px auto;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+form div input {
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    border: 1px solid #ccc;
+}
+
+form div button {
+    width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: #9b59b6;
+    color: #fff;
+}
+
+/* números sorteados */
+.container {
+    width: 480px;
+    margin: 30px auto;
+}
+
+ul {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: #9b59b6;
+    color: #fff;
+}
